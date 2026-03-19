@@ -1,7 +1,3 @@
-.split-layout .left {
-  flex: 55%;
-}
-/* Layout */
 * { box-sizing: border-box; }
 html,body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Roboto, Arial; }
 
@@ -15,15 +11,6 @@ html,body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Robo
   flex: 0 0 60%;
 }
 
-/* Image stack + overlays */
-.image-stack {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-}
-
-
 .split-layout .right {
   flex: 0 0 40%;
 }
@@ -36,16 +23,74 @@ html,body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Robo
   justify-content: left;
 }
 
+.eyes {
+    position: absolute;
+    top: 83px;
+    left: 50px;
+    width: 48%;
+    height: 50%;
+    
+}
+
+.eyes:hover,
+.eyes:focus-visible{
+    transform: scale(1);
+    filter: saturate(2);
+    color: #ffa7dd;
+    outline: none;
+    }
+
+.textbox1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  opacity: 1;
+}
+
+.lips {
+    position: absolute;
+    bottom: 115px;
+    left: 210px;
+    width: 15%;
+    height: 15%;
+}
+
+.lips:hover,
+.lips:focus-visible{
+    transform: scale(1);
+    filter: saturate(2);
+    color: #ffa7be;
+    outline: none;
+    }
+
+.complexion {
+    position: absolute;
+    top: 186px;
+    left: 67px;
+    width: 50%;
+    height: 50%;
+}
+
+.complexion:hover,
+.complexion:focus-visible{
+    transform: scale(1);
+    filter: saturate(2);
+    color: #ffa7dd;
+    outline: none;
+    }
+
 .list-box {
     font-family:'Courier New', Courier, monospace; 
     position: absolute;
     right: 1px;
     width: 45%;
-    height: 100%; 
+    height: 940px; 
     margin: 0;
     padding: 25px;        
     color: rgb(52, 52, 52);
-    background-color: #f7f0e3; 
+    background-color: #f9f2e4; 
 }
 
 .list-box ul {
@@ -61,3 +106,4 @@ html,body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Robo
 .list-box li {
     margin-bottom: 15px;
 }
+
