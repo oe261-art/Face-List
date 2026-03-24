@@ -1,6 +1,6 @@
-const hoverEyes = document.getElementById('hover-eyes');
-const hoverLips = document.getElementById('hover-lips');
-const hoverComplexion = document.getElementById('hover-complexion');
+const hoverEyes = document.querySelector('.eyes');
+const hoverLips = document.querySelector('lips');
+const hoverComplexion = document.querySelector('complexion');
 const eyesSection = document.getElementById('eyes');
 const lipsSection = document.getElementById('lips');
 const complexionSection = document.getElementById('complexion');
@@ -8,6 +8,7 @@ const complexionSection = document.getElementById('complexion');
 hoverEyes.addEventListener('mouseenter', () => {
   eyesSection.style.display = 'block';
 });
+
 hoverEyes.addEventListener('mouseleave', () => {
   eyesSection.style.display = 'none';
 });
@@ -20,8 +21,8 @@ hoverLips.addEventListener('mouseleave', () => {
 });
 
 hoverComplexion.addEventListener('mouseenter', () => {
-  lipsSection.style.display = 'block';
+  complexionSection.style.display = 'block';
 });
 hoverComplexion.addEventListener('mouseleave', () => {
-  lipsSection.style.display = 'none';
+  complexionSection.style.display = 'none';
 });
