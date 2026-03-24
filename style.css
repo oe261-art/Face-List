@@ -107,3 +107,6 @@ html,body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Robo
     margin-bottom: 15px;
 }
 
+.makeup-section {
+display: none;
+}
