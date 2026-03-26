@@ -29,7 +29,6 @@ html,body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Robo
     left: 50px;
     width: 48%;
     height: 50%;
-    
 }
 
 .eyes:hover,
@@ -39,15 +38,6 @@ html,body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Robo
     color: #ffa7dd;
     outline: none;
     }
-
-.textbox1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  opacity: 1;
-}
 
 .lips {
     position: absolute;
