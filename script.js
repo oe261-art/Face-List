@@ -5,6 +5,8 @@ const eyesSection = document.getElementById('eyes');
 const lipsSection = document.getElementById('lips');
 const complexionSection = document.getElementById('complexion');
 
+// Update
+
 hoverEyes.addEventListener('mouseenter', () => {
   eyesSection.style.display = 'block';
 });
